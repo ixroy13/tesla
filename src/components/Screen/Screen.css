@@ -1,0 +1,19 @@
+div.screen {
+  background: red;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.rotate {
+  display: none;
+}
+
+@media (max-aspect-ratio: 15/9) {
+  .rotate {
+    display: grid;
+    place-items: center;
+    height: 100%;
+  }
+}

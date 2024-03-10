@@ -1,0 +1,9 @@
+.main-content {
+    min-height: 90%;
+}
+
+@media (max-aspect-ratio: 15/9) {
+  .main-content {
+    display: none;
+  }
+}
